@@ -1,8 +1,13 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="SearchSuite" verbose="1">
+<suite name="TaskSuite" verbose="1">
     <test name="CommentTests">
         <classes>
             <class name="tests.AddCommentTest"/>
+        </classes>
+    </test>
+    <test name="ApiTests">
+        <classes>
+            <class name="tests.ApiWeatherTest"/>
         </classes>
     </test>
 </suite>
